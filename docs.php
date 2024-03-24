@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\fontawesome-free-6.4.2-web\css\all.min.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Loruki | Cloud Hosting Fro Everyone </title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Loruki.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="features.php">Features</a></li>
+                    <li><a href="docs.php">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-5">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">
+                    Docs
+                </h1>
+
+                <p class="lead">
+                    Learn how to work with the Loruki plateform.
+                </p>
+            </div>
+
+            <img src="images/docs.png" alt="loruki docs">
+        </div>
+    </section>
+
+    <!-- Docs mian -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">
+                    Essentials
+                </h3>
+
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Introduction</a></li>
+                        <li><a href="#">About Loruki</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">
+                    Deployment
+                </h3>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Setting a container</a></li>
+                        <li><a href="#">Using the CLI</a></li>
+                        <li><a href="#">Managing resources</a></li>
+                        <li><a href="#">Upgrade & Downgrade</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="card">
+                <h2>
+                    Indrduction
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam, perferendis adipisci necessitatibus optio dignissimos id nulla eligendi consequuntur sed, officiis tempora, explicabo nihil fugit exercitationem culpa unde. Itaque, exercitationem?
+                </p>
+
+                <div class="alart alart-success">
+                    <i class="fa-solid fa-info"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint.
+                </div>
+
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur, deleniti perspiciatis id magnam voluptatum dignissimos aliquid vel quidem. Maiores.
+
+                </p>
+                <a href="#" class="btn btn-primary">Install CLI</a>
+
+                <h3>Requirememt</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX, Linux</li>
+                    <li>Node.js V12 or higher</li>
+                </ul>
+
+                <h3>Install</h3>
+                <p>MAc (Homebrew)</p>
+                <pre><code>$ brew install Loruki-CLI</code></pre>
+
+                <p>NPM</p>
+                <pre><code>$ npm install Loruki-CLI</code></pre>
+
+                <p>Yarn</p>
+                <pre><code>$ Yarn install Loruki-CLI</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+
+            <div>
+                <h1>
+                    Loruki
+                </h1>
+                <p>
+                    Copyrite &copy; 2024
+                </p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="features.php">Features</a>
+                    </li>
+                    <li>
+                        <a href="docs.php">Documentation</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="#"> <i class="fa-brands fa-github fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

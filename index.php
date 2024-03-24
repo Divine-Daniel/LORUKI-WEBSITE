@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\fontawesome-free-6.4.2-web\css\all.min.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Loruki | Cloud Hosting Fro Everyone </title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Loruki.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="features.php">Features</a></li>
+                    <li><a href="docs.php">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Easier Deployment</h1>
+                <p>Deploy web app of all kinds, from large scale enterprises APIs to static websites for individuals.
+                    Fill out the form to try a demo of our platform </p>
+                <a href="features.php" class="btn btn-outline">Read More</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Request a Demo</h2>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don`t fill this out if you`re human: <input type="hidden" name="bot-field" /></label>
+                    </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Wellcome to the best platform for building application of all types with modern architecture and scaling
+            </h3>
+
+            <div class="grid grid-3 text-center my-3">
+                <div>
+                    <i class="fa-solid fa-server fa-3x"></i>
+                    <h3>10,349,405</h3>
+                    <p class="text-secondary">Deployment</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-upload fa-3x"></i>
+                    <h3>900 TB</h3>
+                    <p class="text-secondary">Published</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-project-diagram fa-3x"></i>
+                    <h3>2,343,256</h3>
+                    <p class="text-second">Project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cli -->
+    <section class="cli">
+        <div class="container grid">
+            <img src="images\cli.png" alt="">
+
+            <div class="card">
+                <h3>Easy to use, Cross platform CLI</h3>
+            </div>
+
+            <div class="card">
+                <h3>Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">
+                    Extreme Cloud Hosting
+                </h2>
+                <p class="lead my-2">
+                    Cloud hosting like you`ve never seen. Fast, efficient and scalable
+                    <a href="features.php" class="btn btn-dark m-2">Read More</a>
+                </p>
+            </div>
+
+            <img src="images\cloud.png" alt="">
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Supported Languages
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="images\logos\node.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images\logos\python.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>c#</h4>
+                <img src="images\logos\csharp.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="images\logos\ruby.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="images\logos\php.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="images\logos\scala.png" alt="">
+            </div>
+
+            <div class="card">
+                <h4>Clojure</h4>
+                <img src="images\logos\clojure.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+
+            <div>
+            <h1>
+                Loruki
+            </h1>
+            <p>
+                Copyrite &copy; 2024
+            </p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.php">Home</a>
+                    </li>
+                    <li>
+                    <a href="features.php">Features</a>
+                    </li>
+                    <li>
+                    <a href="docs.php">Documentation</a> 
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="#"> <i class="fa-brands fa-github fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
+                <a href="#"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
